@@ -1,0 +1,84 @@
+.imageData {
+  gap: 2rem;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+.imageGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 3rem;
+}
+
+.imageItem {
+  background-color: #1b6ca8;
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #ccc;
+  padding: 10px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.imageItem:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transform: scale(1.05);
+}
+
+.image {
+  display: block;
+  width: 100%;
+  transition: transform 0.3s;
+
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.image:hover {
+  transform: scale(1.05);
+}
+
+.imageOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.imageItem:hover .imageOverlay {
+  opacity: 1;
+}
+
+.overlayContent {
+  flex-direction: column;
+  gap: 0.5rem;
+  color: var(--accent-color);
+}
+
+.detailIcons {
+  cursor: pointer;
+  font-size: 2.25rem;
+  transition: 0.3s;
+  color: var(--accent-color);
+}
+
+.detailIcons:hover {
+  transform: scale(1.1);
+}
+
+.view {
+  font-size: 3rem;
+}
+
+.like {
+  font-size: 2.7rem;
+}
+
+.liked {
+  color: red;
+}

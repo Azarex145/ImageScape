@@ -1,0 +1,16 @@
+.imageList {
+  flex-direction: column;
+  padding: 5rem;
+  gap: 3rem;
+}
+
+.imageCategoryTitle {
+  text-align: center;
+  text-transform: capitalize;
+}
+
+@media screen and (max-width: 767px) {
+  .imageList {
+    padding-inline: 2rem;
+  }
+}

@@ -1,0 +1,16 @@
+  .navbar {
+    width: 100%;
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    background-color:var(--primary-color);
+    height: 80px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  .navLogo {
+    color: var(--accent-color);
+    font-size: 2rem;
+    font-weight: 600;
+  }
+  

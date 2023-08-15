@@ -1,0 +1,27 @@
+.category {
+  flex-wrap: wrap;
+  gap: 1rem;
+
+  max-width: 1308px;
+}
+
+.category button {
+  padding: 0.65rem 1rem;
+  width: 8rem;
+  font-size: 0.8rem;
+  transition: 0.3s;
+}
+
+.category button:hover {
+  transform: scale(1.05);
+}
+
+.category button.active-category {
+  background-color: var(--primary-color);
+}
+
+@media screen and (max-width: 600px) {
+  .category {
+    display: none;
+  }
+}

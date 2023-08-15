@@ -1,0 +1,46 @@
+.footer {
+  width: 100%;
+  background-color: var(--primary-color);
+  flex-direction: column;
+  padding-block: 1rem;
+  row-gap: 1.85rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.footer .textContent {
+  text-align: center;
+}
+
+.footer .textContent h3 {
+  color: var(--accent-color);
+  font-size: 1.65rem;
+  font-weight: 600;
+  margin-bottom: 0.8rem;
+}
+
+.footer .textContent p {
+  color: var(--secondary-color);
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.socialLinks {
+  column-gap: 2rem;
+}
+
+.icon {
+  font-size: 2.5rem;
+  color: var(--secondary-color);
+  transition: all 0.3s;
+}
+
+.icon:hover {
+  transform: scale(1.1);
+  color: var(--accent-color);
+}
+
+.copyright p {
+  font-size: 1rem;
+  color: var(--accent-color);
+  font-weight: 600;
+}

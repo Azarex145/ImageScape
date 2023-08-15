@@ -30,7 +30,7 @@ const ImageData = ({ query, images }) => {
   return (
     <div className="flex imageData">
       <div className="imageCategoryTitle">
-        <h1>{query}</h1>
+        <h1>{query} Images</h1>
       </div>
       <div className="imageGrid">
         {images.map((image) => (

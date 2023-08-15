@@ -13,23 +13,23 @@ const ImageList = () => {
 
   const categories = [
     "backgrounds",
+    "wallpapers",
+    "abstract",
+    "sky",
     "fashion",
     "nature",
     "science",
-    "feelings",
-    "health",
-    "people",
-    "religion",
+    "flowers",
+    "cakes",
     "places",
-    "animals",
-    "industry",
-    "computer",
+    "cats",
+    "space",
+    "technology",
     "food",
     "sports",
     "transportation",
     "travel",
-    "business",
-    "music",
+    "beach",
   ];
 
   useEffect(() => {
@@ -75,11 +75,11 @@ const ImageList = () => {
         selectedImageType={selectedImageType}
       />
       <CategoryButtons
-  categories={categories}
-  selectedCategory={selectedCategory}
-  handleCategoryChange={handleCategoryChange}
-  handleSearchQueryChange={setQuery} 
-/>
+        categories={categories}
+        selectedCategory={selectedCategory}
+        handleCategoryChange={handleCategoryChange}
+        handleSearchQueryChange={setQuery}
+      />
 
       <ImageData query={query ? query : selectedCategory} images={images} />
     </div>

@@ -6,6 +6,7 @@
 .imageGrid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  
   gap: 3rem;
 }
 
@@ -32,6 +33,7 @@
   height: 100%;
   object-fit: cover;
   overflow: hidden;
+  object-position: center;
 }
 
 .image:hover {

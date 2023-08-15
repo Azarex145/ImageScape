@@ -41,6 +41,7 @@ const ImageList = () => {
       q: query,
       image_type: selectedImageType,
       category: selectedCategory,
+      orientation: "horizontal",
       per_page: 20,
     };
 
@@ -74,10 +75,11 @@ const ImageList = () => {
         selectedImageType={selectedImageType}
       />
       <CategoryButtons
-        categories={categories}
-        selectedCategory={selectedCategory}
-        handleCategoryChange={handleCategoryChange}
-      />
+  categories={categories}
+  selectedCategory={selectedCategory}
+  handleCategoryChange={handleCategoryChange}
+  handleSearchQueryChange={setQuery} 
+/>
 
       <ImageData query={query ? query : selectedCategory} images={images} />
     </div>

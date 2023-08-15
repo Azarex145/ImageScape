@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ImageScape/static/css/main.f4d69eaa.css",
+    "main.js": "/ImageScape/static/js/main.15ca10e5.js",
+    "index.html": "/ImageScape/index.html",
+    "main.f4d69eaa.css.map": "/ImageScape/static/css/main.f4d69eaa.css.map",
+    "main.15ca10e5.js.map": "/ImageScape/static/js/main.15ca10e5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f4d69eaa.css",
+    "static/js/main.15ca10e5.js"
+  ]
+}

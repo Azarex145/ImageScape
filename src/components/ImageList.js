@@ -42,7 +42,7 @@ const ImageList = () => {
       image_type: selectedImageType,
       category: selectedCategory,
       orientation: "horizontal",
-      per_page: 20,
+      per_page: 40,
     };
 
     axios
